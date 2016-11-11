@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		24E4C1C51DD5F58000DD3EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E4C1C41DD5F58000DD3EF6 /* AppDelegate.swift */; };
-		24E4C1C71DD5F58000DD3EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E4C1C61DD5F58000DD3EF6 /* ViewController.swift */; };
+		24E4C1C71DD5F58000DD3EF6 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E4C1C61DD5F58000DD3EF6 /* TasksViewController.swift */; };
 		24E4C1CA1DD5F58100DD3EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E4C1C81DD5F58000DD3EF6 /* Main.storyboard */; };
 		24E4C1CD1DD5F58100DD3EF6 /* Do_It_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24E4C1CB1DD5F58100DD3EF6 /* Do_It_.xcdatamodeld */; };
 		24E4C1CF1DD5F58100DD3EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E4C1CE1DD5F58100DD3EF6 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		24E4C1C11DD5F58000DD3EF6 /* Do It!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do It!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E4C1C41DD5F58000DD3EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24E4C1C61DD5F58000DD3EF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24E4C1C61DD5F58000DD3EF6 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		24E4C1C91DD5F58000DD3EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24E4C1CC1DD5F58100DD3EF6 /* Do_It_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Do_It_.xcdatamodel; sourceTree = "<group>"; };
 		24E4C1CE1DD5F58100DD3EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,10 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				24E4C1C41DD5F58000DD3EF6 /* AppDelegate.swift */,
-				24E4C1C61DD5F58000DD3EF6 /* ViewController.swift */,
+				24E4C1C61DD5F58000DD3EF6 /* TasksViewController.swift */,
 				24E4C1D91DD5F7F000DD3EF6 /* Task.swift */,
-				24E4C1C81DD5F58000DD3EF6 /* Main.storyboard */,
 				24E4C1DB1DD5FD0900DD3EF6 /* CreateTaskViewController.swift */,
+				24E4C1C81DD5F58000DD3EF6 /* Main.storyboard */,
 				24E4C1CE1DD5F58100DD3EF6 /* Assets.xcassets */,
 				24E4C1D01DD5F58100DD3EF6 /* LaunchScreen.storyboard */,
 				24E4C1D31DD5F58100DD3EF6 /* Info.plist */,
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24E4C1DA1DD5F7F000DD3EF6 /* Task.swift in Sources */,
-				24E4C1C71DD5F58000DD3EF6 /* ViewController.swift in Sources */,
+				24E4C1C71DD5F58000DD3EF6 /* TasksViewController.swift in Sources */,
 				24E4C1C51DD5F58000DD3EF6 /* AppDelegate.swift in Sources */,
 				24E4C1CD1DD5F58100DD3EF6 /* Do_It_.xcdatamodeld in Sources */,
 				24E4C1DC1DD5FD0900DD3EF6 /* CreateTaskViewController.swift in Sources */,
@@ -197,6 +197,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mickeysonneveld@gmail.com (3GN9YXTS38)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -247,6 +248,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mickeysonneveld@gmail.com (3GN9YXTS38)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

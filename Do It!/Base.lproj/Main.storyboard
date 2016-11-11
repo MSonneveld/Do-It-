@@ -47,7 +47,7 @@
                                 <rect key="frame" x="164" y="262" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="addTapped:" destination="q0l-DD-JcQ" eventType="touchUpInside" id="bzf-xQ-lB9"/>
+                                    <action selector="addTapped:" destination="q0l-DD-JcQ" eventType="touchUpInside" id="W6u-cR-Zkl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -78,7 +78,7 @@
         <!--Do It!-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="Do_It_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="TasksViewController" customModule="Do_It_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
